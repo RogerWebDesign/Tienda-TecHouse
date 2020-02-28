@@ -1,0 +1,29 @@
+:root {
+    --color-white: #f2f2f2;
+    --color-dark: #424242;
+    --color-logo: #e26532;
+    --fuente-regular: Nova-regular;
+}
+/*Estilos generales*/
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    max-width: 1920px;
+    display: flex;
+    font-family: var(--fuente-regular);
+}
+#logo {
+    width: 70px;
+    margin: 10px;
+}
+#logo img {
+    width:100%;
+}
